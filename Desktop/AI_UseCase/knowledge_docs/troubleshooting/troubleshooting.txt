@@ -1,0 +1,5 @@
+Issue: Product not turning on
+Solution: Check if the power cable is plugged in. If still not working, press the reset button.
+
+Issue: Wi-Fi connectivity problems
+Solution: Ensure Wi-Fi credentials are correct. Restart the product and router.

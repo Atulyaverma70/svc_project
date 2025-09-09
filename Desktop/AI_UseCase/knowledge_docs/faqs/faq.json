@@ -1,0 +1,11 @@
+faqs_json_path = "knowledge_docs/faqs/faq.json"
+if os.path.exists(faqs_json_path):
+    loader = JSONLoader(
+        faqs_json_path,
+        jq_schema=".[] | {question: .question, answer: .answer}",
+        text_content=True  # must be True so that page_content is string
+    )
+    for doc in loader.load():
+        # Combine question and answer into a single string
+        doc.page_content = f"Q: {doc.metadata['question']}\nA: {doc.metadata['answer']}"
+        docs.append(doc)

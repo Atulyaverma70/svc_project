@@ -1,0 +1,8 @@
+Q: How do I reset the product?
+A: Press and hold the reset button for 10 seconds until the LED blinks.
+
+Q: What is the warranty period?
+A: The product comes with a 1-year warranty.
+
+Q: Can I use the product internationally?
+A: Yes, it supports 100-240V input.
